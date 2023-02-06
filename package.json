@@ -1,0 +1,29 @@
+{
+  "name": "text-to-image-app",
+  "version": "1.0.0",
+  "description": "![GitHub](https://img.shields.io/github/repo-size/asantercureton/text-to-image-app?style=plastic) ![GitHub](https://img.shields.io/github/last-commit/asantercureton/text-to-image-app?style=plastic) ![GitHub](https://img.shields.io/github/languages/top/asantercureton/text-to-image-app?style=plastic) ![GitHub](https://img.shields.io/github/followers/asantercureton?style=social)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asantercureton/text-to-image-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/asantercureton/text-to-image-app/issues"
+  },
+  "homepage": "https://github.com/asantercureton/text-to-image-app#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
